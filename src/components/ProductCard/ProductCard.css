@@ -1,0 +1,48 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  width: 250px;
+  border-radius: 1em;
+  box-shadow: 0 0 20px 5px grey;
+}
+
+.img {
+  width: 100%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: 50px 1fr 1fr;
+  margin: 1em;
+}
+
+.naslov {
+  color: black;
+}
+
+.price {
+  color: black;
+  display: flex;
+  gap: 1em;
+}
+.description {
+  color: #838386;
+}
+
+.cart-button {
+  background-color: #003366;
+}
+
+.mantine-Button-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.shopping-cart {
+  font-size: 1.25em;
+}

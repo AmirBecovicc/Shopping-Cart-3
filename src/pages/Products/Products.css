@@ -1,0 +1,14 @@
+.wrapper-product {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  gap: 2em;
+  margin: 3em 2em;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+  gap: 0.5em;
+}
